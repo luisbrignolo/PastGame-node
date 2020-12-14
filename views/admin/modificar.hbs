@@ -1,0 +1,35 @@
+<div class="container" style="margin:50px 0">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <h4>Modificar el Contacto</h4>
+            <form action="/admin/contactos/modificar" method="post">
+            <input type="hidden" value="{{contactos.id}}" name="id">
+
+                <div class="form-group">
+                    <label for="">Nombre</label>
+                    <input type="text" class="form-control" name="nombre" value="{{contactos.nombre}}">
+
+                </div>
+                
+                <div class="form-group">
+                    <label for="">Comentario</label>
+                    <textarea name="comentario" class="form-control">{{contactos.comentario}}</textarea>
+
+                </div>
+                <button type="submit" class="btn btn-primary">Modificar</button>
+            </form>
+
+            {{#if error}}
+            <p>{{message}}</p>
+            {{/if}}
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+</div>

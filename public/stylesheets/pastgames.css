@@ -1,0 +1,1036 @@
+/* font-family: 'Josefin Sans', sans-serif; */
+.holder{
+    max-width: 1280px;
+    margin: 0
+}
+
+h1.front{
+    margin: 0;
+}
+
+h1.back{
+    color: rgb(255, 81, 0);
+    text-align: center;
+    padding: 1em;
+}
+
+header img {
+    width: 100%;
+}
+
+header{
+    background-color: #07133a;
+}
+
+nav ul li a:hover{
+    background-color: rgba(241, 74, 45, 0.8);
+}
+nav ul li a.activo{
+    background-color: #832612
+}
+
+nav ul{
+    margin: 0;
+    padding: 0 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    width: 16%;
+    list-style: none;
+}
+nav ul li a{
+    color: #c9cdd3 ;
+    font-family: Arial;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.2em 0;
+}
+nav{
+    background-color: black;
+    width: 100%;
+}
+
+footer{
+    background-color: #07133a;
+    width: 100%;
+    height: 5em;
+    padding: 0.6em 0;
+    display: flex;
+    justify-content: space-between;
+}
+.pastgame1, .pastgame2{
+    padding-top: 0.3em;
+}
+.pastgame1{
+    padding-left: 0.3em;
+}
+.pastgame2{
+    padding-right: 0.3em;
+}
+
+.redes{
+text-align: center;
+}
+.redes .footerlogos{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.redes p{
+    color: white;
+}
+
+main{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Inicio Home */
+
+a{
+    text-decoration: none;
+}
+
+.cajahome h3{
+    margin: 0;
+    padding: 2em 1em;
+    color: #ffdbcf;
+}
+h6{
+    margin: 0;
+    color: #ffdbcf;
+    font-style: italic;
+    font-size: 0.8em;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 0.7em;
+}
+
+.naranja.textolateral img, .marron.textolateral img{
+    padding-left: 0.3em;
+}
+.naranja img, .marron img{
+    padding-top: 0.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cajahome{
+    background-color: #2b2626;
+    width: 100%;
+}
+
+.filajuegos{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+.naranja{
+    background-color: #b02f04;
+    width: 13em;
+    height: 8.2em;
+    margin-left: 10%;
+    margin-bottom: 5em;
+    border-radius: 1em;
+    box-shadow: 0.63em 0.63em 0.63em black;
+    transition: all 0.3s ease;
+}
+
+.naranja:hover{
+    transform: scale(1.2);
+}
+
+.marron{
+    background-color: #691c01;
+    width: 13em;
+    height: 8.2em;
+    margin-left: 10%;
+    margin-bottom: 5em;
+    border-radius: 1em;
+    box-shadow: 0.63em 0.63em 0.63em black;
+    transition: all 0.3s ease;
+}
+
+.marron:hover{
+    transform: scale(1.2);
+}
+
+.textolateral img{
+    float: left;
+}
+.textolateral h6{
+    float: left;
+    padding-top: 3.3em;
+    padding-left: 1.5em;
+}
+/* Fin Home */
+
+/* Inicio Nosotros */
+
+.cajanosotros{
+    background-image: url(../images/Nosotros/fondo-nosotros.jpg);
+    width: 100%;
+    padding: 10% 0;
+}
+
+.contenedor{
+    border-radius: 2em;
+    margin: 0 6%;
+    background-color: rgba(4, 1, 41, 0.5);
+}
+
+.contenedor p{
+    color: #ffdbcf;
+    border-radius: 0.5em;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    padding: 0 7% 5% 7%;
+}
+
+.contenedor h2{
+    color: #ffdbcf;
+    border-radius: 0.5em;
+    padding: 3% 0;
+    margin-top: 0;
+    text-align: center;
+
+}
+/* Fin Nosotros */
+
+/* Inicio Coleccion */
+
+.cajacoleccion{
+    background-color: #2b2626;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    width: 100%;
+}
+
+.zeldaoc, .papermario, .force, .gbcp, .smario3, .megamanx{
+    position: relative;
+}
+
+
+img.obscuro{
+    opacity: 35%;
+    width: 100%;
+}
+img.claro{
+    opacity: 25%;
+    width: 100%;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6 {
+    position: absolute;
+    top: 10%;
+
+}
+
+.item1 h2, .item2 h2, .item3 h2, .item4 h2, .item5 h2, .item6 h2{
+    color: #ffdbcf;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.cajaimagen {
+    margin: 0;
+}
+
+img.papercol, img.forcecol, img.gbcpcol, img.megamanxcol{
+    transform: scale(0.7);
+    display: block;
+    margin: auto;
+}
+
+
+img.zeldacol, img.sm3col {
+    transform: scale(0.8);
+    display: block;
+    margin: auto;
+}
+
+.cajatexto {
+    margin: 1% 10% 0;
+}
+
+.cajatexto p {
+    color: #ffdbcf;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+/* Fin Coleccion */
+
+/* Inicio Multimedia */
+
+.cajaimagenes{
+    background-image: url(../images/Imagenes/Fondo/fondoimagenesjpg.jpg);
+    padding: 5% 0;
+    width: 100%;
+}
+
+.cajanegra{
+    background-color: rgb(4, 4, 27);
+    width: 70%;
+    margin: 0 auto 5%;
+    padding: 3%;
+    box-shadow: 0 0 4.4em 1.3em;
+}
+
+.cajanegra h2{
+    margin: 0;
+    color: #ffdbcf;
+    text-align: center;
+    padding: 5%;
+}
+
+.cajanegra div{
+    display: flex;
+    justify-content: space-around;;
+}
+
+.cajanegra div img{
+    margin-bottom: 5%;
+}
+/* Fin Multimedia */
+
+/* Inicio Tienda */
+
+.cajatienda{
+    background-image: url(../images/Tienda/Fondotienda/fondotienda.jpg);
+    background-size: contain;
+    width: 100%;
+    padding:5% 0;
+
+}
+
+.cajaitem1, .cajaitem2, .cajaitem3, .cajaitem4, .cajaitem5, .cajaitem6{
+    background-color: rgba(4, 1, 41, 0.7);
+    width: 53%;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto 5%;
+}
+
+.cajaitem1 h2, .cajaitem2 h2, .cajaitem3 h2, .cajaitem4 h2, .cajaitem5 h2, .cajaitem6 h2{
+    color: #ffdbcf;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 5%;
+}
+
+.sale{
+    display: block;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+
+.sale img {
+    display: block;
+    margin: 0 auto;
+}
+
+.sale p{
+    text-align: center;
+    color: #ffdbcf;
+    font-size: 1.5em;
+}
+
+img.boton{
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 1em 0;
+}
+
+img.boton:hover{
+    animation-name: vibra;
+    animation-duration: 0.1s;
+    animation-iteration-count: 5;
+}
+
+@keyframes vibra{
+    from{
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(5deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+/* Fin Tienda */
+
+/* Inicio Contacto */
+
+.cajacontacto{
+    position: relative;
+    background-color: #2b2626;
+    width: 100%;
+    padding-bottom: 6.25em;
+    display: flex;
+    justify-content: left;
+}
+.formulario{
+    background-color: #2b2626;
+}
+.columna1, .columna2{
+    width: 50%;
+    display: block;
+    margin: auto 10% auto 5%;
+}
+.columna1{
+    position: relative;
+}
+.columna2 .redes{
+    display: flex;
+    justify-content: space-between;
+}
+.columna2 h3{
+    color: #ffdbcf;
+    text-align: center;
+}
+.columna1 h2{
+    color: #ffdbcf;
+    padding: 1em 10%;
+}
+.formulario input, .formulario textarea{
+    background-color: #ffdbcf;
+    border-radius: 10px;
+    width: 19em;
+    height: 1.9em;
+    margin: 0.63em 10%;
+    padding-left: 0.5em;
+} 
+
+.formulario textarea{
+    height: 15.6em;
+    resize: none;
+    padding: 0.63em 0 0 0.63em;
+}
+
+.formulario input[type="submit"]{
+    margin-bottom: 5%;
+    background-color: #07133a;
+    color: #ffdbcf;
+    width: 5em;
+    position: absolute;
+    top: 100%;
+    left: 14.7em;
+}
+.formulario input[type="submit"]:hover{
+    background-color: rgb(66, 57, 117);
+}
+.redes img{
+    transform: scale(0.7);
+}
+
+img.marciano1{
+    position: absolute;
+    left: 70%;
+    top: 70%;
+    opacity: 0;
+    transform: scale(0.6);
+    animation-name: cartero1;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+}
+
+img.marciano2{
+    position: absolute;
+        left: 70%;
+        top: 73%;
+        opacity: 0;
+        transform: scale(0.6);
+    animation-name: cartero2;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+
+
+img.marciano3{
+    position: absolute;
+        left: 90%;
+        top: 74%;
+        opacity: 0;
+        transform: scale(0.6);
+        animation-name: cartero3;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+}
+
+
+    @keyframes cartero1{
+        from{
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        opacity: 1;
+        }
+        to{
+            position: absolute;
+            left: 50%;
+            top: 70%;
+            opacity: 0;
+        }
+    }
+
+    
+    @keyframes cartero2{
+        from{
+            position: absolute;
+            left: 55%;
+            top: 73%;
+            opacity: 0;
+        }
+        10%{
+            opacity: 0;
+        }
+        20%{
+            opacity: 0;
+        }
+        30%{
+            opacity: 0;
+        }
+    
+        50%{
+            position: absolute;
+            left: 55%;
+            top: 73%;
+            opacity: 1;
+        }
+       
+        to{
+            position: absolute;
+            left: 75%;
+            top: 73%;
+        }
+    }
+    @keyframes cartero3{
+        from{
+            position: absolute;
+            left: 75%;
+            top: 74%;
+            opacity: 0;
+        }
+        10%{
+            opacity: 0;
+        }
+        40%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 0;
+        }
+        70%{
+            opacity: 0;
+        }
+        80%{
+            opacity: 0;
+        }
+        85%{
+            opacity: 1;
+            position: absolute;
+            left: 75%;
+            top: 73%;
+        }
+        to{
+            position: absolute;
+            left: 99%;
+            top: 74%;
+            opacity: 0;
+        }
+    }
+
+
+/* Fin Contacto */
+
+
+
+@media screen and (max-width: 1024px) {
+
+.holder{
+    max-width: 1024px;
+}
+
+
+.item1 h2, .item2 h2, .item3 h2, .item4 h2, .item5 h2, .item6 h2{
+    font-size: 1.5em;
+}
+
+img.papercol, img.forcecol, img.megamanxcol{
+    height: 12em;
+    margin: 0 auto;
+}
+
+img.zeldacol {
+    height: 11em;
+    margin: 0 auto;
+}
+
+img.sm3col, img.gbcpcol {
+    height: 15em;
+    margin: 0 auto;
+}
+
+.cajatexto {
+    margin: 0 4%;
+}
+
+.cajaimagen{
+    height: 220px;
+}
+
+.cajatexto p {
+    font-size: 1em;
+}
+
+.item4 .cajatexto p, .item5 .cajatexto p {
+    margin-top: 2em;
+}
+
+}/* Fin media max-width 1024px */
+
+
+@media screen and (max-width: 768px){
+
+.holder {
+    max-width: 768px;
+}
+
+nav ul li{
+    width: 100%;
+    border-top: 2px solid black ;
+}
+
+nav ul {
+    display: unset;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(92, 28, 3);
+}
+
+nav .holder {
+    border-bottom:  2px solid black;
+    border-left:  2px solid black;
+    border-right:  2px solid black;
+}
+
+.pastgame1, .pastgame2 {
+    transform: scale(0.8);
+}
+
+.redes .footerlogos {
+    margin-left: 3%;
+    margin-right: 3%;
+    transform: scale(0.6);
+}
+
+.redes p {
+    font-size: 0.7em;
+}
+
+/* Inicio home media 768px */
+
+.cajahome h3 {
+    font-size: 1.1em;
+}
+
+.filajuegos {
+    display: unset;
+    margin-left: 0;
+}
+
+.naranja, .marron {
+    transform: scale(0.9);
+}
+
+.naranja:hover, .marron:hover {
+    transform: scale(1);
+}
+
+/* Inicio Nosotros media 768px */
+
+.contenedor p {
+    font-size: 0.9em;
+}
+
+.contenedor h2 {
+    font-size: 1.2em;
+}
+
+/* Inicio coleccion media 768px */
+
+.item1 h2, .item2 h2, .item3 h2, .item4 h2, .item5 h2, .item6 h2 {
+    font-size: 1.3em;
+}
+
+img.papercol, img.forcecol, img.megamanxcol{
+    height: 10em;
+}
+
+img.zeldacol {
+    height: 9em;
+}
+
+img.sm3col, img.gbcpcol {
+    height: 13em;
+}
+
+.cajaimagen{
+    height: 200px;
+}
+
+.cajatexto p {
+    font-size: 0.7em;
+}
+
+.item4 .cajatexto p, .item5 .cajatexto p {
+    margin-top: 2em;
+}
+
+/* Inicio Multimedia media 768px */
+
+
+.cajanegra {
+    transform: scale(0.9);
+}
+
+.cajanegra div {
+    transform: scale(0.9);
+}
+
+.cajanegra div img {
+    transform: scale(0.7);
+}
+
+/* Inicio Tienda 768px */
+
+
+.sale {
+    display: block;
+    margin: 0 auto;
+}
+
+.sale img {
+    width: 30%;
+    display: block;
+    margin: 0 auto 2em;
+}
+
+.cajaitem1 h2, .cajaitem2 h2, .cajaitem3 h2, .cajaitem4 h2, .cajaitem5 h2, .cajaitem6 h2 {
+    margin-bottom: 0;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+
+.sale p {
+    font-size: 1em;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+img.boton {
+    width: 30%;
+    position: unset;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Inicio Contacto 768px */
+
+.cajacontacto {
+    display: unset;
+    padding: 0;
+}
+
+.columna1, .columna2 {
+    width: 100%;
+    background-color: #2b2626;
+    margin: 0;
+}
+
+.columna1 h2, .columna2 h3 {
+    margin: 0;
+    background-color: #2b2626;
+}
+
+.columna1 h2 {
+    font-size: 1.4em;
+    padding-top: 2em;
+}
+
+.columna2 h3 {
+    padding-top: 2em;
+}
+
+.columna2 .redes {
+    padding-top: 4em;
+    padding-bottom: 2em;
+    justify-content: space-around;
+}
+
+.formulario input[type="submit"] {
+    position: unset;
+}
+
+img.marciano1, img.marciano2, img.marciano3 {
+    animation: unset;
+}
+
+}/* Fin media 768px*/
+
+@media screen and (max-width: 650px) {
+
+.holder {
+    max-width: 650px;
+}
+
+/* Inicio home media 650px */
+
+.naranja, .marron{
+    display: block;
+    margin: 2em auto;
+}
+
+.cajahome h3 {
+    text-align: center;
+}
+
+/* Inicio coleccion media 650px */
+
+.item1 h2, .item2 h2, .item3 h2, .item4 h2, .item5 h2, .item6 h2 {
+    font-size: 1em;
+}
+
+img.papercol, img.forcecol, img.megamanxcol{
+    height: 6em;
+}
+
+img.zeldacol {
+    height: 5em;
+}
+
+img.sm3col, img.gbcpcol {
+    height: 8em;
+}
+
+.item4 .cajatexto p, .item5 .cajatexto p {
+    margin-top: 1em;
+}
+.cajaimagen {
+    height: 7em;
+}
+
+/* Inicio multimedia media 650px */
+
+
+.cajanegra div {
+    transform: scale(0.7);
+}
+
+.cajanegra div img {
+    transform: scale(0.7);
+}
+
+.cajanegra h2 {
+    font-size: 1.3em;
+}
+
+/* Inicio tienda media 650px */
+
+.cajaitem1 h2, .cajaitem2 h2, .cajaitem3 h2, .cajaitem4 h2, .cajaitem5 h2, .cajaitem6 h2 {
+    margin-bottom: 0;
+    font-size: 1em;
+}
+
+.sale img {
+    width: 60%;
+}
+
+img.boton {
+    width: 30%;
+
+}
+}/*Fin media 650px*/
+
+@media screen and (max-width: 480px) {
+
+.holder {
+    max-width: 480px;
+}
+
+nav ul li a {
+    font-size: 0.8em;
+}
+
+footer {
+    display: block ;
+}
+
+.redes p {
+    font-size: 0.5em;
+    display: block;
+    margin: 0 auto;
+}
+
+.redes .footerlogos {
+    display: none;
+}
+
+.pastgame1 {
+    display: none;
+}
+
+.pastgame2 {
+    transform: scale(0.7);
+    margin-bottom: 3em;
+}
+
+.pastgame2 img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Inicio home media 480 */
+
+.cajahome h3 {
+    font-size: 0.8em;
+}
+
+.marron, .naranja {
+    transform: scale(0.8);
+    margin-bottom: 0.5em;
+}
+
+/* Inicio Nosotros media 480px */
+
+.contenedor p {
+    font-size: 0.7em;
+}
+
+.contenedor h2 {
+    font-size: 1em;
+}
+
+/* Inicio coleccion media 480px */
+
+.item1 h2, .item2 h2, .item3 h2, .item4 h2, .item5 h2, .item6 h2 {
+    font-size: 0.8em;
+}
+
+img.papercol, img.forcecol, img.megamanxcol {
+    height: 4em;
+}
+
+img.zeldacol {
+    height: 3em;
+}
+
+img.sm3col, img.gbcpcol {
+    height: 5em;
+}
+
+.cajaimagen {
+    height: 5em;
+}
+
+.cajatexto p {
+    font-size: 0.3em;
+}
+
+/* Inicio multimedid media 480px */
+
+.cajanegra div {
+    display: unset;
+    transform: scale(0.5);
+}
+
+.cajanegra div img {
+    transform: scale(0.7);
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.cajanegra h2 {
+    font-size: 1em;
+}
+
+/* Inicio tienda media 480px */
+
+.cajaitem1 h2, .cajaitem2 h2, .cajaitem3 h2, .cajaitem4 h2, .cajaitem5 h2, .cajaitem6 h2 {
+    font-size: 0.7em;
+    margin-bottom: 1em;
+}
+
+.sale img {
+    width: 40%;
+}
+
+img.boton {
+    width: 40%;
+}
+
+.sale p {
+    font-size: 0.7em;
+}
+
+/* Inicio nosotros media 480px */
+
+.columna1 h2 {
+    font-size: 1em;
+    padding-top: 2em;
+    text-align: center;
+}
+
+.columna2 h3 {
+    padding-top: 2em;
+    font-size: 0.8em;
+
+}
+
+.columna2 .redes {
+    transform: scale(0.7);
+}
+
+.formulario input, .formulario textarea {
+    width: 11em;
+    display: block;
+    margin: 1em auto;
+}
+
+.formulario input {
+    height: 1.5em;
+}
+
+.formulario textarea{
+    height: 10em;
+}
+
+.formulario input[type="submit"] {
+    position: unset;
+    display: block;
+    margin: 0 auto;
+}
+}

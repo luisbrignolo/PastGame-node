@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PastGames </title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='/stylesheets/normalize.css' />
+    <link rel='stylesheet' href='/stylesheets/pastgames.css' />
+  </head>
+  <body>
+
+    <header>
+      <div class="holder">
+        <h1 class="front">
+          <img src="images/Header/PastGames.png" alt="PastGames">
+        </h1>
+      </div>  
+    </header> 
+
+    <nav>
+      <div class="holder">
+        <ul>
+          <li>
+              <a href="/" class="{{#if isHome}} activo {{/if}}">HOME</a>
+          </li>
+          <li>
+              <a href="/nosotros" class="{{#if isNosotros}} activo {{/if}}">NOSOTROS</a>
+          </li>
+          <li>
+              <a href="/coleccion" class="{{#if isColeccion}} activo {{/if}}">COLECCION</a>
+          </li>
+          <li>
+              <a href="/multimedia" class="{{#if isMultimedia}} activo {{/if}}">MULTIMEDIA</a>
+          </li>
+          <li>
+              <a href="/tienda" class="{{#if isTienda}} activo {{/if}}">TIENDA</a>
+          </li>
+          <li>
+              <a href="/contacto" class="{{#if isContacto}} activo {{/if}}">CONTACTO</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    {{{body}}}
+
+    <footer>
+      <div class="pastgame1">
+          <img src="images/Footer/pastgmepng.png" alt="pastgmespng">
+      </div>
+            
+      <div class="redes">
+        <img class="footerlogos" src="images/Footer/Whatsapp.png" alt="whatsapp">
+        <a href="https://www.instagram.com/pastgames_argentina/" target="_blank"><img class="footerlogos" src="images/Footer/Logo Instagram.png"alt="Instagram"></a>
+        <a href="https://www.facebook.com/PastGames-416040455610917/" target="_blank"><img class="footerlogos" src="images/Footer/Logo facebook.png"alt="Facebook"></a>
+        <p>Diseño y desarrollo web: Luis Brignolo</p>
+      </div>
+              
+      <div class="pastgame2">
+          <img src="images/Footer/Copia de pastgmepng2.png" alt="pastgmepng">
+      </div>
+        
+    </footer>
+
+  </body>
+</html>

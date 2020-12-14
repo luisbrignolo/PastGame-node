@@ -1,0 +1,43 @@
+<main class="holder">
+            <div class="cajacontacto">
+
+                <div class="columna1">
+                    <h2>CONTACTO</h2>
+                    <form action="/contacto" method="POST" class="formulario">
+                        <div>
+                            <input type="text" name="nombre" placeholder="Ingrese su Nombre"/>
+                        </div>
+                        <div>
+                            <input type="text" name="email" placeholder="Escriba su e-mail"/>
+                        </div>
+                        <div>
+                            <textarea name="comentario" id="" placeholder="Ingrese un comentario..."></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Enviar"/>
+                            <p style="color: white; text-align:center;">{{message}}</p>
+                            {{#if error}}<p style="color: white; text-align:center;">{{message2}}</p>{{/if}}
+
+                        </div>
+                    </form>
+
+                </div>
+
+                <div class="columna2">
+                    <div>
+                        <img class="marciano1" src="images/Contacto/marciano1.png" alt="marciano1">
+                        <img class="marciano2" src="images/Contacto/marciano2.png" alt="marciano2">
+                        <img class="marciano3" src="images/Contacto/marciano3.png" alt="marciano3">
+                    </div>
+                    <h3>BUSCANOS TAMBIEN<br/>EN<br/>REDES SOCIALES!</h3>
+                    <div class="redes">
+                        <img src="images/Contacto/Logos redes sociales/Logo whatsapp.png" alt="logowhatsapp">
+                        <a href="https://www.instagram.com/pastgames_argentina/" target="_blank"><img src="images/Contacto/Logos redes sociales/Logo Instagram.png" alt="logoinstagram"></a>
+                        <a href="https://www.facebook.com/PastGames-416040455610917/" target="_blank"><img src="images/Contacto/Logos redes sociales/Logo facebook.png" alt="logofacebook"></a>
+                    </div>
+                    
+                </div>
+                   
+            </div>
+            
+</main>
